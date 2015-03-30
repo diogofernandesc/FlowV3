@@ -1,9 +1,6 @@
 import pygame
+import Main
 
-
-scr_size = (600, 600)
-screen = pygame.display.set_mode(scr_size)
-White = (255, 255, 255)
 
 # --- grid built here:
     
@@ -26,14 +23,14 @@ def build_grid():
         - Then increments by 100 which is the amount of pixels in both directions that the lines will be separated by
         - i is looped 5 times because 5 lines are drawn in each direction'''
         
-        pygame.draw.line(screen, White, x_grid_interval1, x_grid_interval2)
+        pygame.draw.line(Main.screen, Main.White, x_grid_interval1, x_grid_interval2)
         x_grid_interval1[0] += 100
         x_grid_interval2[0] += 100 
             
         # The above code deals with vertical lines - incrementing the x values of the coordinates of the lines
         # Means loop will draw a new line 100 pixels ahead of the previous
             
-        pygame.draw.line(screen, White, y_grid_interval1, y_grid_interval2)
+        pygame.draw.line(Main.screen, Main.White, y_grid_interval1, y_grid_interval2)
         y_grid_interval1[1] += 100
         y_grid_interval2[1] += 100
             
