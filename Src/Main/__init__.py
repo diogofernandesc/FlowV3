@@ -236,6 +236,7 @@ def game_level(current_level, action, rAction, R1x, R1y, R2x, R2y, B1x, B1y, B2x
     line_colour = ()
     
     
+    
     # Condition variables for links
     OrangeLink = False
     RedLink = False

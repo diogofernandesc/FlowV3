@@ -17,10 +17,6 @@ class grid_circle(pygame.sprite.Sprite):
         self.colour = colour
             
     def render(self):
-        # Render method draws circles at the stated position and colour given by the parameters
-        # ctr_x and ctr_y for center coordinates of each fixed grid circle as well as colour
-        
-        pygame.gfxdraw.filled_circle(Main.screen, self.ctr_x, self.ctr_y, self.radius, self.colour)
         pygame.gfxdraw.filled_circle(Main.screen, self.ctr_x, self.ctr_y, self.radius, self.colour)
 
             

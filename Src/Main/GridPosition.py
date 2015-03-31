@@ -3,7 +3,7 @@ import pygame
 import Main
 
 
-# Checks if user has clicked circle to give line_colour a value, at mouseclick event
+# Checks if user has clicked circle to give line_colour a value, at mouse click event
 def no_linecolour_crash():
     if Main.line_colour == ():
         crash_font = pygame.font.SysFont(None, 25)
