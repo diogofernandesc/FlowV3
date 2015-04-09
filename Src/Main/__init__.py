@@ -45,6 +45,11 @@ done = False
 font = pygame.font.Font(None, 100)
 background = pygame.Surface(screen.get_size())
 
+# Default value for line colour
+line_colour = ()
+    
+# Default value for grid position
+grid_position = ()
 
 # Defining grid positions for circles
 # Array storing different grid positions possible for circles (their center) for both x and y:
@@ -170,6 +175,7 @@ def game_level(current_level, action, rAction, R1x, R1y, R2x, R2y, B1x, B1y, B2x
     global frame_count
     global frame_rate
     global level_time
+    global grid_position
     
     # Naming the caption of the window opened for the Game
     pygame.display.set_caption("Flow " + current_level)
@@ -233,8 +239,11 @@ def game_level(current_level, action, rAction, R1x, R1y, R2x, R2y, B1x, B1y, B2x
     Reset.counter(nresets)
     Connection.complete_status()
     
+    '''# Default value for line colour
     line_colour = ()
     
+    # Default value for grid position
+    grid_position = ()'''
     
     
     # Condition variables for links

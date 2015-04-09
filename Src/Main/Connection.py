@@ -94,10 +94,16 @@ def clicked(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1
     global YellowLink
     global GreenLink
     global BlueLink
+    global grid_position
     
-    
+    if Main.grid_position == ():
+        # Prevent game from crashing without value for grid_position
+        crash_font = pygame.font.SysFont(None, 25)
+        crash_text = crash_font.render("Please click a circle to begin", True, Main.Red)
+        Main.screen.blit(crash_text,(350,605))
+        
     # Red Pair
-    if Main.grid_position == redgp1:
+    elif Main.grid_position == redgp1:
         Main.Red1Clicked = True
         
     elif Main.grid_position == redgp2:

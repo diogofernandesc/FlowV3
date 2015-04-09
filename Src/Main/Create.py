@@ -1,6 +1,6 @@
 import Main
 import time
-from Main import LevelCompletion
+import LevelCompletion
 
 def text(text, text_x, text_y, size):
     TextFont = Main.pygame.font.Font('freesansbold.ttf', size)
@@ -39,6 +39,7 @@ def button(msg, button_x, button_y, button_w, button_h, icolour, acolour, fontsi
                 quit()
                 
             elif action == "main menu":
+                time.sleep(0.2)
                 Main.game_intro()
                 
             elif action == "reset_level1":
