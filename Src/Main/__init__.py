@@ -111,7 +111,8 @@ def instruction_menu():
         
         screen.fill(Yellow)
 
-        # Text procedure used to create list of instructions which take parameters for actual instruction, x-axis position, y-axis position and font size
+        ''' Text procedure used to create list of instructions which take parameters for actual instruction,
+        x-axis position, y-axis position and font size'''
         Create.text("Instructions", 300, 100, 70)
         Create.text("The objective of flow is to connect all the circle pairs of the same colour, together:",300,200,15)
         Create.text("- Click one of the circles to begin", 300, 250, 15)
