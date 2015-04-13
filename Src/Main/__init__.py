@@ -235,7 +235,8 @@ def game_level(current_level, action, rAction, R1x, R1y, R2x, R2y, B1x, B1y, B2x
     
     
     # Sprite list with all the circles
-    circle_list.add(RedCircle1, RedCircle2, BlueCircle1, BlueCircle2, GreenCircle1, GreenCircle2, OrangeCircle1, OrangeCircle2, YellowCircle1, YellowCircle2)
+    circle_list.add(RedCircle1, RedCircle2, BlueCircle1, BlueCircle2, GreenCircle1, GreenCircle2,
+    OrangeCircle1, OrangeCircle2, YellowCircle1, YellowCircle2)
     
     
     # Grid built here:
@@ -288,9 +289,11 @@ def game_level(current_level, action, rAction, R1x, R1y, R2x, R2y, B1x, B1y, B2x
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 # This stops program from crashing if user clicks anywhere but not the actual circle because line_colour would have no value
                 GridPosition.no_linecolour_crash()
-                Line.linecolour(o_x1, o_y1, o_x2, o_y2, r_x1, r_y1, r_x2, r_y2, yel_x1, yel_y1, yel_x2, yel_y2, g_x1, g_y1, g_x2, g_y2, b_x1, b_y1, b_x2, b_y2)
+                Line.linecolour(o_x1, o_y1, o_x2, o_y2, r_x1, r_y1, r_x2, r_y2, yel_x1, yel_y1, yel_x2,
+                yel_y2, g_x1, g_y1, g_x2, g_y2, b_x1, b_y1, b_x2, b_y2)
                 CheckPosition.pst()
-                Connection.clicked(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2, bluegp1, bluegp2)
+                Connection.clicked(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2,
+                bluegp1, bluegp2)
                 # Checks whether user clicks the reset button:
                 if 50+200 > mouse_x > 50 and 650+100 > mouse_y > 650:
                     if nresets == -1:
@@ -312,10 +315,12 @@ def game_level(current_level, action, rAction, R1x, R1y, R2x, R2y, B1x, B1y, B2x
                     #click_movement(mouse_x, mouse_y)
                     CheckPosition.pst()
     
-                    Connection.isConnected(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2, bluegp1, bluegp2)
+                    Connection.isConnected(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2,
+                    bluegp1, bluegp2)
                             
             if ((OrangeLink == True) and (RedLink == True) and (YellowLink == True) and (GreenLink == True) and (BlueLink == True)):
-                # Wait for 1 second because there seems to be a problem whereby if the user is still holding the mouse the program will continue evaluating in other circumstances, explained in project:
+                '''Wait for 1 second because there seems to be a problem whereby if the user is still holding 
+                the mouse the program will continue evaluating in other circumstances, explained in project:'''
                 time.sleep(1)
                 if current_level == "level 5":
                     # Bring up game complete window if the 5th level is complete:
