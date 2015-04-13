@@ -5,14 +5,16 @@ def linecolour(o_x1, o_y1, o_x2, o_y2, r_x1, r_y1, r_x2, r_y2, yel_x1, yel_y1,
                 yel_x2, yel_y2, g_x1, g_y1, g_x2, g_y2, b_x1, b_y1, b_x2, b_y2):
     '''
     Determines the colour of the link to be used based on where the user clicks
-    After previously getting levels from the actual Flow game, I use that to create what essentially builds a whole new level using this function:
+    After previously getting levels from the actual Flow game, I use that to create what 
+    essentially builds a whole new level using this function:
     '''
     global line_colour
     pos = pygame.mouse.get_pos()
     mouse_x = pos[0]
     mouse_y = pos[1]
     
-    ''''t checks to see whether the grid position determined by dividing the x coordinate of the mouse and y coordinate of the mouse match with the box in which the circles should be
+    '''' Checks to see whether the grid position determined by dividing the x coordinate of the mouse and y coordinate 
+    of the mouse match with the box in which the circles should be
     If they are clicked then the line_colour variable becomes equal to the stated colour
     I got levels from the original Flow game and used the logic of this matrix:
     
