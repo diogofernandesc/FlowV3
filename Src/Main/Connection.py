@@ -1,7 +1,6 @@
-''' IN PROGRESS'''
+
 
 import pygame
-
 import Main
 
 

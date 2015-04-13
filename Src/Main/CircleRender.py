@@ -1,10 +1,6 @@
 import pygame
 import pygame.gfxdraw
-
 import Main
-
-
-
 
 class grid_circle(pygame.sprite.Sprite):
     # Stationary circles class you need a pair of each colour
