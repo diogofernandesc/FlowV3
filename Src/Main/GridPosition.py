@@ -25,9 +25,10 @@ def grid_moving_circle(gridn_x, gridn_y, cctr_x, cctr_y, gridn):
     elif ((int(mouse_x/100) == gridn_x) and (int(mouse_y/100) == gridn_y)):
         # Draws circles as user moves mouse:
         pygame.draw.circle(Main.screen, Main.line_colour, (cctr_x, cctr_y), 30)
-        # This is used so that when the value of line_colour is occupied by a value given by the click of the user in the 'line' module it turns to black
-        # This gives the impression to the user that since the warning has now gone that they can now draw
-        # The warning would be: Please click a circle to begin
+        '''This is used so that when the value of line_colour is occupied by a value given by the click of the user in the
+        'line' module it turns to black
+        This gives the impression to the user that since the warning has now gone that they can now draw
+        The warning would be: Please click a circle to begin'''
         reset_font = pygame.font.SysFont(None, 25)
         reset_text = reset_font.render("Please click a circle to begin", True, Main.Black)
         Main.screen.blit(reset_text,(350,605))
