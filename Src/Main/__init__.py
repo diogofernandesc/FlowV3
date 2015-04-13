@@ -151,9 +151,9 @@ def game_intro():
         
 
 def game_level(current_level, action, rAction, R1x, R1y, R2x, R2y, B1x, B1y, B2x, B2y, G1x, G1y, 
-                G2x, G2y, O1x, O1y, O2x, O2y, Y1x, Y1y, Y2x, Y2y,
-                o_x1, o_y1, o_x2, o_y2, r_x1, r_y1, r_x2, r_y2, yel_x1, yel_y1, yel_x2, yel_y2, g_x1, g_y1, g_x2, g_y2, b_x1, b_y1, b_x2, b_y2,
-                 orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2, bluegp1, bluegp2):
+                G2x, G2y, O1x, O1y, O2x, O2y, Y1x, Y1y, Y2x, Y2y,o_x1, o_y1, o_x2, o_y2, r_x1, r_y1, r_x2, r_y2, 
+                yel_x1, yel_y1, yel_x2, yel_y2, g_x1, g_y1, g_x2, g_y2, b_x1, b_y1, b_x2, b_y2,
+                orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2, bluegp1, bluegp2):
     '''
      Arguments: Big letters (R, B, G, Y, O) represent stationary circles, small letters (o, r, g, y, b) used to check connections complete or if clicked
      Arguments: action to say what happens after level complete, and rAction for action for the reset button
