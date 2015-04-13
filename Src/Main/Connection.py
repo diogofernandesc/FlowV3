@@ -1,8 +1,5 @@
-
-
 import pygame
 import Main
-
 
 # Function used to tell player that a specific link has been complete
 # Will work by creating greyed out text for each link, as it is completed it will be coloured in to the correct colour
