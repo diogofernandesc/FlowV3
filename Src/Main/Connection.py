@@ -155,8 +155,6 @@ def isConnected(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, gree
     global GreenLink
     global BlueLink
     
-    
-    
     # Orange Pair:
     if Main.Orange1Clicked == True:
         # position of other circle
@@ -164,34 +162,28 @@ def isConnected(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, gree
             Main.OrangeLink = True
             link_complete("orange")
 
-            
-            
     if Main.Orange2Clicked == True:
         if Main.grid_position == orangegp1:
             Main.OrangeLink = True
             link_complete("orange")
 
-            
     # Red Pair:     
     if Main.Red1Clicked == True:
         if Main.grid_position == redgp2:
             Main.RedLink = True
             link_complete("red")
 
-            
     if Main.Red2Clicked == True:
         if Main.grid_position == redgp1:
             Main.RedLink = True
             link_complete("red")
 
-            
     # Yellow Pair:
     if Main.Yellow1Clicked == True:
         if Main.grid_position == yellowgp2:
             Main.YellowLink = True
             link_complete("yellow")
 
-            
     if Main.Yellow2Clicked == True:
         if Main.grid_position == yellowgp1:
             Main.YellowLink = True
@@ -203,25 +195,18 @@ def isConnected(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, gree
             Main.GreenLink = True
             link_complete("green")
 
-            
-            
     if Main.Green2Clicked == True:
         if Main.grid_position == greengp1:
             Main.GreenLink = True
             link_complete("green")
 
-            
     # Blue Pair:
     if Main.Blue1Clicked == True:
         if Main.grid_position == bluegp2:
             Main.BlueLink = True
             link_complete("blue")
 
-            
     if Main.Blue2Clicked == True:
         if Main.grid_position == bluegp1:
             Main.BlueLink = True
             link_complete("blue")
-
-        
-    
