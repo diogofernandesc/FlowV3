@@ -76,7 +76,8 @@ def link_complete(link_colour):
     
 
 
-def clicked(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2, bluegp1, bluegp2):  # colour grid position 1 and colour grid position 2
+def clicked(orangegp1, orangegp2, redgp1, redgp2, yellowgp1, yellowgp2, greengp1, greengp2, bluegp1, bluegp2): 
+    # colour grid position 1 and colour grid position 2 (for arguments)
     
     global Orange1Clicked
     global Orange2Clicked 
