@@ -39,7 +39,8 @@ def pst():
     
     '''
     Draws the smaller circles on the screen as the user enters that "box":
-    - These calls to the grid_moving circle function tell the program where exactly to draw the circle if the user has the left mouse button clicked when in that position
+    - These calls to the grid_moving circle function tell the program where exactly to draw the circle 
+    if the user has the left mouse button clicked when in that position
     '''
     
     # First row:
