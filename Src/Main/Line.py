@@ -34,19 +34,24 @@ def linecolour(o_x1, o_y1, o_x2, o_y2, r_x1, r_y1, r_x2, r_y2, yel_x1, yel_y1,
     
     This would mean I would have circles at any one of these positions which I then enter as arguments'''
     
-    if ((int(mouse_x/100) == o_x1) and (int(mouse_y/100) == o_y1)) or ((int(mouse_x/100) == o_x2) and (int(mouse_y/100) == o_y2)):
+    if ((int(mouse_x/100) == o_x1) and (int(mouse_y/100) == o_y1)) or (
+    (int(mouse_x/100) == o_x2) and (int(mouse_y/100) == o_y2)):
         Main.line_colour = Main.Orange
         
-    elif ((int(mouse_x/100) == r_x1) and (int(mouse_y/100) == r_y1)) or ((int(mouse_x/100) == r_x2) and (int(mouse_y/100) == r_y2)):
+    elif ((int(mouse_x/100) == r_x1) and (int(mouse_y/100) == r_y1)) or (
+    (int(mouse_x/100) == r_x2) and (int(mouse_y/100) == r_y2)):
         Main.line_colour = Main.Red
         
-    elif ((int(mouse_x/100) == yel_x1) and (int(mouse_y/100) == yel_y1)) or ((int(mouse_x/100) == yel_x2) and (int(mouse_y/100) == yel_y2)):
+    elif ((int(mouse_x/100) == yel_x1) and (int(mouse_y/100) == yel_y1)) or (
+    (int(mouse_x/100) == yel_x2 and (int(mouse_y/100) == yel_y2)):
         Main.line_colour = Main.Yellow
 
-    elif ((int(mouse_x/100) == g_x1) and (int(mouse_y/100) == g_y1)) or ((int(mouse_x/100) == g_x2) and (int(mouse_y/100) == g_y2)):
+    elif ((int(mouse_x/100) == g_x1) and (int(mouse_y/100) == g_y1)) or (
+    (int(mouse_x/100) == g_x2) and (int(mouse_y/100) == g_y2)):
         Main.line_colour = Main.Green
 
         
-    elif ((int(mouse_x/100) == b_x1) and (int(mouse_y/100) == b_y1)) or ((int(mouse_x/100) == b_x2) and (int(mouse_y/100) == b_y2)):
+    elif ((int(mouse_x/100) == b_x1) and (int(mouse_y/100) == b_y1)) or (
+    (int(mouse_x/100) == b_x2) and (int(mouse_y/100) == b_y2)):
         Main.line_colour = Main.Blue
 
