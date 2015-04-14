@@ -42,33 +42,33 @@ def link_complete(link_colour):
     
     if link_colour == "red":
         # Red Link:
-        REDgrey_font = pygame.font.SysFont(None, 25)
-        REDgrey_text = REDgrey_font.render("Red Link", True, Main.Red)
-        Main.screen.blit(REDgrey_text,(25,777))
+        RED_font = pygame.font.SysFont(None, 25)
+        RED_text = REDgrey_font.render("Red Link", True, Main.Red)
+        Main.screen.blit(RED_text,(25,777))
     
     elif link_colour == "orange":
         # Orange Link:
-        ORANGEgrey_font = pygame.font.SysFont(None, 25)
-        ORANGEgrey_text = ORANGEgrey_font.render("Orange Link", True, Main.Orange)
-        Main.screen.blit(ORANGEgrey_text,(125,777))
+        ORANGE_font = pygame.font.SysFont(None, 25)
+        ORANGE_text = ORANGE_font.render("Orange Link", True, Main.Orange)
+        Main.screen.blit(ORANGE_text,(125,777))
     
     elif link_colour == "yellow":
         # Yellow Link:
-        YELLOWgrey_font = pygame.font.SysFont(None, 25)
-        YELLOWgrey_text = YELLOWgrey_font.render("Yellow Link", True, Main.Yellow)
-        Main.screen.blit(YELLOWgrey_text,(255,777))
+        YELLOW_font = pygame.font.SysFont(None, 25)
+        YELLOW_text = YELLOW_font.render("Yellow Link", True, Main.Yellow)
+        Main.screen.blit(YELLOW_text,(255,777))
     
     elif link_colour == "green":
         # Green Link:
-        GREENgrey_font = pygame.font.SysFont(None, 25)
-        GREENgrey_text = GREENgrey_font.render("Green Link", True, Main.Green)
-        Main.screen.blit(GREENgrey_text,(375,777))
+        GREEN_font = pygame.font.SysFont(None, 25)
+        GREEN_text = GREEN_font.render("Green Link", True, Main.Green)
+        Main.screen.blit(GREEN_text,(375,777))
     
     elif link_colour == "blue":
         # Blue Link:
-        BLUEgrey_font = pygame.font.SysFont(None, 25)
-        BLUEgrey_text = BLUEgrey_font.render("Blue Link", True, Main.Blue)
-        Main.screen.blit(BLUEgrey_text,(485,777))
+        BLUE_font = pygame.font.SysFont(None, 25)
+        BLUE_text = BLUE_font.render("Blue Link", True, Main.Blue)
+        Main.screen.blit(BLUE_text,(485,777))
     
     
 
