@@ -1,7 +1,5 @@
 import pygame
-
 import Main
-
 
 # Checks if user has clicked circle to give line_colour a value, at mouse click event
 def no_linecolour_crash():
@@ -10,7 +8,6 @@ def no_linecolour_crash():
         crash_text = crash_font.render("Please click a circle to begin", True, Main.Red)
         Main.screen.blit(crash_text,(350,605))
     
-
 def grid_moving_circle(gridn_x, gridn_y, cctr_x, cctr_y, gridn):
     pos = pygame.mouse.get_pos()
     mouse_x = pos[0]
@@ -32,8 +29,6 @@ def grid_moving_circle(gridn_x, gridn_y, cctr_x, cctr_y, gridn):
         reset_font = pygame.font.SysFont(None, 25)
         reset_text = reset_font.render("Please click a circle to begin", True, Main.Black)
         Main.screen.blit(reset_text,(350,605))
-    
-    
     
 def pst():
     
