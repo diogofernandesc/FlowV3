@@ -1,6 +1,5 @@
 import Main
 
-
 def counter(nresets):
     '''
     Using variable nresets, blits the value of nresets each time it changes
