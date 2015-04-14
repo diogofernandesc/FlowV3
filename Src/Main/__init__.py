@@ -1,5 +1,3 @@
-# Defining colours for the circles, paths(lines) and grid background
-
 import Main
 import pygame
 import pygame.time
