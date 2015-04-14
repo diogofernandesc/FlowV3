@@ -43,7 +43,7 @@ def link_complete(link_colour):
     if link_colour == "red":
         # Red Link:
         RED_font = pygame.font.SysFont(None, 25)
-        RED_text = REDgrey_font.render("Red Link", True, Main.Red)
+        RED_text = RED_font.render("Red Link", True, Main.Red)
         Main.screen.blit(RED_text,(25,777))
     
     elif link_colour == "orange":
