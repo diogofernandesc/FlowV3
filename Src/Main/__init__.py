@@ -116,7 +116,7 @@ def instruction_menu():
         Create.text("Instructions", 300, 100, 70)
         Create.text("The objective of flow is to connect all the circle pairs of the same colour, together:",300,200,15)
         Create.text("- Click one of the circles to begin", 300, 250, 15)
-        Create.text("- Hold down the left mouse button and drag to its colour partner to complete the link", 300, 300, 15)
+        Create.text("- Hold down the left mouse button and drag to its colour partner to complete the link", 300, 300, 14)
         Create.text("- Once a link is complete, the link colour will light up at the bottom of the screen", 300, 350, 15)
         Create.text("- You have 15 seconds to complete the level", 300, 400, 15)
         Create.text("- You have three resets available to you, which also reset the time!", 300, 450, 15)

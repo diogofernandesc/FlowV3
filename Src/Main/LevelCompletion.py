@@ -27,7 +27,7 @@ def situation(situation, nextlevel, current_level):
             textpos = text.get_rect(centerx=Main.background.get_width()/2)
             textpos.top = 210
             Main.screen.blit(text, textpos)
-            Create.button("Retry",50,400, 200, 100, Main.DarkGreen, Main.Green, 30, current_level)
+            Create.button("Retry",50,400, 200, 100, Main.DarkGreen, Main.Green, 30, "level 1")
             Create.button("Quit game",350,400, 200, 100, Main.DarkGrey, Main.Grey, 30, "quit")
             
             
